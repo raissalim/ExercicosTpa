@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class |Ativ3 {
+public static void main (String[]args ) {
+	Scanner in =new Scanner (System.in);
+	 final int TAM=10;
+	 int a [];
+	 a = new int [TAM];
+	 
+	 for(int i=0; i<a.length; i++) {
+		System.out.println("Digite o "+(i+1)+"termo");
+		a[i] = in.nextInt();
+	 }
+	 
+	 for(int i=0; i<a.length; i++) {
+		 if(a[i] % 2 ==0 && a[i]!=2){
+			 // o 2 e unico par que e primo e usamos commo forma de provar se e ou n primo.
+			 System.out.println("Numero "+a[i]+" não é primo");
+		 }
+		 
+		 else {
+			 System.out.println("Numero "+a[i]+" é primo");
+		 }
+	 }
+	 
+	 
+}
+}
