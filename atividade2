@@ -6,11 +6,11 @@ public class tabuadavetor {
         int a[];
         a =new int[TAM];
         for(int i=0;i<TAM;i++){
-            int number=i+1;
-			System.out.println("Tabuada da"+number+":");
-            for(int r=1;r<11;r++){
-                int result=number*r;
-                System.out.println(+number+"x"+r+"="+result);
+            int number=i+1;// indo ditar os numeros 
+			System.out.println("Tabuada da"+number+":");// print desses números 
+            for(int r=1;r<11;r++){ // do ao 10 para as tabuadas irem até 10 
+                int result=number*r; number 1 por exemplo + r =0, isso está me multiplicado  
+                System.out.println(+number+"x"+r+"="+result); // aq 1 × 0= 0
                 in.close();
                 
             }
