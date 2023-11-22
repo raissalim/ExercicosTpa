@@ -9,20 +9,20 @@ public class Ativ1{
 		for (int i=0;i<TAM;i++){
 			System.out.println("Escreva o "+(i+1)+"valor.");
 			a[i] = in.nextInt();
-			if (a[i]%2==0){
-				b[i] = a[i];
+			if (a[i]%2==0){// verificando se o vetor quando divisivel por 2 =0 
+				b[i] = a[i];// guardados esses valores assik como dito no enuciado no vetor b 
 			}
 		}
-		System.out.print(" inpares ");
+		System.out.print(" inpares "); // aparecendo o print na tela 
 		for ( int i=0;i<TAM;i++){
-			if (a[i]%2==1){
+			if (a[i]%2==1){ // mesmo processo mas agr paras os inpares
 			System.out.print(a[i]+" ");
 		    	}
     		}
 	  	System.out.print("pares");
 		for (int i=0;i<TAM;i++){
-			if(b[i]%2==0 && b[i]!=0) {
-			System.out.print(b[i]+" ");
+			if(b[i]%2==0 && b[i]!=0) { // operador lógico 
+			System.out.print(b[i]+" "); // vetor b 
 		    	}
     		}
     	}
