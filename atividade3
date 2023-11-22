@@ -12,7 +12,7 @@ public static void main (String[]args ) {
 	 }
 	 
 	 for(int i=0; i<a.length; i++) {
-		 if(a[i] % 2 ==0 && a[i]!=2){
+		 if(a[i] % 2 ==0 && a[i]!=2){ // verificando se o resto da divisão divida por 2 é = 0 e seu o valor da esqierda é difetente ou igual a da direita  
 			 // o 2 e unico par que e primo e usamos commo forma de provar se e ou n primo.
 			 System.out.println("Numero "+a[i]+" não é primo");
 		 }
